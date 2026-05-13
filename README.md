@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍅 POMO. — Produtividade com Estilo
 
-## Getting Started
+O **POMO.** é uma ferramenta de gerenciamento de tempo baseada na técnica Pomodoro, projetada com foco em minimalismo, estética moderna e funcionalidade em tela única (Zero Scroll).
 
-First, run the development server:
+## O que é o Pomodoro?
+O Pomodoro é uma técnica de gerenciamento de tempo que ajuda a aumentar a produtividade e a concentração. A ideia é dividir o trabalho em intervalos de tempo, geralmente de 25 minutos, chamados de "pomodoros", seguidos por uma breve pausa. Após completar quatro pomodoros, é recomendado fazer uma pausa mais longa.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🖼️ Screenshots
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<div align="center">
+  <img src="./public/assets/Captura de tela de 2026-05-13 14-38-22.png" width="45%" alt="Versão Dark Mode">
+  <img src="./public/assets/Captura de tela de 2026-05-13 14-40-53.png" width="45%" alt="Versão Dark Mode">
+  <p><em>Interface principal em Modo Escuro com o Timer e Task List integrados.</em></p>
+  <img src="./public/assets/Captura de tela de 2026-05-13 14-40-15.png" width="45%" alt="Versão Light Mode">
+  <img src="./public/assets/Captura de tela de 2026-05-13 14-40-34.png" width="45%" alt="Versão Light Mode">
+  <p><em>Visualização do Timer em Modo Claro, destacando a alternância entre foco e pausa.</em></p>
+</div>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Funcionalidades
 
-## Learn More
+- ⏳ **Timer Inteligente:** Alternância entre foco (25 min) e pausa curta (5 min).
+- 🌓 **Modo Escuro Dinâmico:** Interface que se adapta à sua preferência visual.
+- 📋 **Task List Integrada:** Gerencie suas tarefas sem sair da tela do timer.
+- 🔄 **Master Reset:** Função para zerar cronômetro, tarefas e ciclos com um clique.
+- 📱 **Design Responsivo:** Adaptado para desktop e dispositivos móveis.
+- 🎯 **Visualizador de Ciclos:** Acompanhe seu progresso através de indicadores visuais.
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Tecnologias Utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Este projeto foi construído utilizando as melhores tecnologias do ecossistema React:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js 15](https://nextjs.org/) - Framework React para produção.
+- [Tailwind CSS](https://tailwindcss.com/) - Estilização baseada em utilitários.
+- [Lucide/React Icons](https://react-icons.github.io/react-icons/) - Pacote de ícones.
+- [TypeScript](https://www.typescriptlang.org/) - Tipagem estática para maior segurança.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💻 Como Rodar o Projeto
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Gabb83/pomodoro.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd pomodoro
+    ```
+3. Instale as dependências (certifique-se de ter o Node.js instalado):
+    ```bash
+    npm install
+    ```
+4. Inicie o servidor de desenvolvimento:
+    ```bash
+    npm run dev
+    ```
+5. Abra o navegador e acesse `http://localhost:3000` para ver o aplicativo em ação.

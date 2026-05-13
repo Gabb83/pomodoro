@@ -80,7 +80,7 @@ export default function Home() {
       
       {/* Header - Espaçamento reduzido */}
       <nav className="flex justify-between items-center mb-6 flex-shrink-0">
-        <h2 className="text-xl font-black tracking-tighter italic">POMODORO.</h2>
+        <h2 className="text-xl font-black tracking-tighter italic">POMO.</h2>
         <button
           onClick={toggleDarkMode}
           className={`p-2 rounded-xl transition-all cursor-pointer ${darkMode ? 'bg-gray-800 text-yellow-400' : 'bg-white shadow-lg text-indigo-600'}`}
