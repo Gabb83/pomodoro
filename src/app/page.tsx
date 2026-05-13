@@ -110,7 +110,7 @@ export default function Home() {
             {/* Display do Cronômetro - Tamanho adaptável */}
             <div className="relative mb-8 flex-shrink-0">
               <div className={`absolute inset-0 blur-[80px] opacity-20 transition-colors duration-700 ${modo === 'normal' ? 'bg-red-500' : 'bg-teal-500'}`} />
-              <div className="relative flex items-baseline font-mono font-black text-[8rem] md:text-[10rem] leading-none tracking-tighter">
+              <div className="relative flex items-baseline font-mono font-black text-[6rem] md:text-[10rem] leading-none tracking-tighter">
                 <span>{min}</span>
                 <span className={`animate-pulse duration-1000 ${modo === 'normal' ? 'text-red-500' : 'text-teal-500'}`}>:</span>
                 <span>{sec}</span>
