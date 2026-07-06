@@ -31,7 +31,7 @@ O Pomodoro é uma técnica de gerenciamento de tempo que ajuda a aumentar a prod
 
 Este projeto foi construído utilizando as melhores tecnologias do ecossistema React:
 
-- [Next.js 15](https://nextjs.org/) - Framework React para produção.
+- [Next.js](https://nextjs.org/) - Framework React para produção.
 - [Tailwind CSS](https://tailwindcss.com/) - Estilização baseada em utilitários.
 - [Lucide/React Icons](https://react-icons.github.io/react-icons/) - Pacote de ícones.
 - [TypeScript](https://www.typescriptlang.org/) - Tipagem estática para maior segurança.
@@ -54,3 +54,6 @@ Este projeto foi construído utilizando as melhores tecnologias do ecossistema R
     npm run dev
     ```
 5. Abra o navegador e acesse `http://localhost:3000` para ver o aplicativo em ação.
+
+## 🔗 Deploy | Vercel
+O projeto está hospedado no Vercel e pode ser acessado através do seguinte link: [POMO. — Produtividade com Estilo](https://pomodoro-rho-nine.vercel.app/)
