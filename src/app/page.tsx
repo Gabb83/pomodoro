@@ -93,7 +93,7 @@ export default function Home() {
       <div className="grid grid-cols-1 lg:grid-cols-10 gap-6 flex-1 min-h-0 items-stretch">
         
         {/* COLUNA DA ESQUERDA: TIMER (70%) */}
-        <section className="lg:col-span-7 flex flex-col h-full">
+        <section className="lg:col-span-7 flex flex-col justify-center items-center h-full">
           <div className={`relative flex-1 rounded-[3rem] shadow-2xl flex flex-col items-center justify-center transition-all duration-500 w-full p-8
             ${darkMode ? 'bg-gray-900/40 border border-gray-800' : 'bg-white border border-gray-100'}`}>
             
@@ -129,7 +129,7 @@ export default function Home() {
 
               <button
                 onClick={() => setAtivado(!ativado)}
-                className={`w-24 h-24 flex justify-center items-center rounded-[2.5rem] text-white ccursor-pointer transition-all transform hover:scale-105 active:scale-95 shadow-2xl
+                className={`w-24 h-24 flex justify-center items-center rounded-[2.5rem] text-white ccursor-pointer transition-all transform hover:scale-105 active:scale-95 shadow-2xl cursor-pointer
                   ${modo === 'normal' ? 'bg-red-500 hover:bg-red-600 shadow-red-500/20' : 'bg-teal-500 hover:bg-teal-600 shadow-teal-500/20'}`}
               >
                 {ativado ? <BsFillPauseFill size={48} /> : <BsFillPlayFill size={48} className="ml-1" />}
@@ -151,7 +151,7 @@ export default function Home() {
 
         {/* COLUNA DA DIREITA: TASK LIST (30%) - Gerencia o scroll interno */}
         <section className={`lg:col-span-3 rounded-[2.5rem] transition-all duration-500 flex flex-col p-6 min-h-0
-          ${darkMode ? 'bg-gray-900/20 border border-gray-800' : 'bg-gray-100/50 border border-gray-200'}`}>
+          ${darkMode ? 'bg-gray-900/20 border border-gray-800' : 'bg-white/100 border border-gray-200'}`}>
           
           <h3 className="text-lg font-bold mb-6 flex items-center gap-3 flex-shrink-0">
             Tarefas
